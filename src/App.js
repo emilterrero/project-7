@@ -22,8 +22,13 @@ function App() {
         navOpen={navOpen}
         setNav={setNav}
         />
+
         <div className='body'>
-        <Content />
+        <Content 
+        jobs={jobs}
+        search={search}
+        />
+
         {navOpen ? 
             <Sidebar
             search={search}
