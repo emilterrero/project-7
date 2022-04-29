@@ -24,3 +24,24 @@
     height: 100%;
     border-radius: 5px;
 }
+
+.navbar button:hover {
+    background-color: #262626;
+    font-weight: bold;
+}
+
+.sidebar {
+    height: 90vh;
+    width: 35vw;
+    padding: 5px;
+    position: absolute;
+    right: 5px;
+    background-color: black;
+    color: white;
+    overflow: scroll;
+    border-radius: 5px;
+}
+
+.sidebar p {
+    margin: 7px 0 7px 10px;
+}

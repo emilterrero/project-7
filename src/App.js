@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect, useState } from 'react';
 import Navbar from './Navbar.js';
+import Sidebar from './Sidebar.js';
 
 function App() {
     let [jobs, setJobs] = useState([])
@@ -19,6 +20,12 @@ function App() {
       navOpen={navOpen}
       setNav={setNav}
       />
+      {navOpen ? 
+      <Sidebar 
+      jobs={jobs}
+      />
+          : ''
+      }
     </div>
   );
 }
