@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+.App {
+    position: relative;
+}
+
 .navbar {
     margin: 5px;
     position: relative;
@@ -30,6 +34,10 @@
     font-weight: bold;
 }
 
+.body {
+    display: flex;
+}
+
 .sidebar {
     height: 90vh;
     width: 35vw;
@@ -44,4 +52,22 @@
 
 .sidebar p {
     margin: 7px 0 7px 10px;
+}
+
+.sidebar p:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content {
+    display: inline-block;
+    background-color: red;
+    height: 90vh;
+    width: 60vw;
+    margin: 5px 0 10px 10px;
+    border-radius: 5px;
+}
+
+.content h2 {
+    margin: 10px;
 }
