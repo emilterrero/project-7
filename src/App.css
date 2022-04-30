@@ -61,14 +61,11 @@
 
 .content {
     display: inline-block;
-    background-color: red;
+    background-color: white;
     height: 90vh;
     width: 60vw;
     margin: 5px 0 10px 10px;
     border-radius: 5px;
-}
-
-.content-div {
     overflow: scroll;
 }
 
